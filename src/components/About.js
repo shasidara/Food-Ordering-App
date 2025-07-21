@@ -21,7 +21,7 @@ class About extends React.Component {
             <div>
                 <h1 className="p-4 mt-4 mb-2 ml-4 font-bold text-2xl">FOOD DELIVERY APP</h1>
                 <div className="flex px-4 mb-2 ml-4">
-                   LoggedIn User :
+                   Developed By :
                    <UserContext.Consumer>
                         {({loggedInUser}) => <h1 className="text-lg font-bold ml-2">{loggedInUser}</h1>}
                     </UserContext.Consumer>
